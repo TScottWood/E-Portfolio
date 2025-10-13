@@ -280,9 +280,10 @@ PROJECTS
 FOOTER
 
 */
-.FOOTER {
+footer {
     background-color: #242424;
     display: flex;
+    padding: 6% 0;
 }
 
 .footer__row {
@@ -296,3 +297,7 @@ FOOTER
     height: 70px;
 }
 
+.footer__social--link,
+.footer__copyright {
+    color: white;
+}
