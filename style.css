@@ -30,6 +30,7 @@ section {
 
 .container {
     padding: 50px 0;
+    width: 100%;
 }
 
 .row {
@@ -274,3 +275,25 @@ PROJECTS
     margin: 16px 0;
 
 }
+
+/* 
+
+FOOTER
+
+*/
+.FOOTER {
+    background-color: #242424;
+    display: flex;
+}
+
+.footer__row {
+    display: flex;
+    justify-content: column;
+    align-items: center;
+}
+
+#personal-logo2 {
+    width: 120px;
+    height: 120px;
+}
+
