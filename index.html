@@ -90,23 +90,48 @@
         <div class="modal__languages">
           <figure class="modal__language">
             <i class="fa-brands fa-html5 modal__language--img" style="color: #f06530;"></i> 
-            <span.language__name>HTML</span>
+            <span class=language__name>HTML</span>
           </figure>
           <figure class="modal__language">
             <i class="fa-brands fa-css3-alt modal__language--img" style="color: #3c99dc;"></i>
-            <span.language__name>CSS</span>
+            <span class=language__name>CSS</span>
           </figure>
           <figure class="modal__language">
             <i class="fa-brands fa-js modal__language--img" style="color: #FFD43B;"></i>
-            <span.language__name>JavaScript</span>
+            <span class=language__name>JavaScript</span>
           </figure>
           <figure class="modal__language">
             <i class="fa-brands fa-react modal__language--img" style="color: #61dbfb;"></i>
-            <span.language__name>React</span>
+            <span class=language__name>React</span>
           </figure>
         </div>
         </div>
-        <div class="modal__half modal__contact">Let's have a chat!</div>
+        <div class="modal__half modal__contact">
+          <h3 class="modal__title modal__title--contact">
+            Let's have a chat!
+          </h3>
+          <h3 class="modal__sub-title modal__sub-title--contact">
+            I'm currently open to new opportunities.
+          </h3>
+           <form id="contact__form" action="">
+            <div class="form__item">
+              <label class="form__item--label">Name</label>
+                <input class="input" name="user_name" type="text" required></input>
+            </div>
+            <div class="form__item">
+              <label class="form__item--label">Email</label>
+                <input class="input" name="user_email" type="email" required></input>
+            </div>
+            <div class="form__item">
+              <label class="form__item--label">Message</label>
+                <textarea class="input" name="message" type="text" required></textarea>
+            </div>
+            <button id=":contact__submit" class="form__submit">
+              Send it my way.
+            </button>
+           </form>
+
+        </div>
       </div>
     </section>
     <section id="projects">
