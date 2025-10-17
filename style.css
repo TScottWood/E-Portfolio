@@ -73,6 +73,7 @@ input:focus, textarea:focus {
 }
 
 .click {
+  cursor: pointer;
   transition: all 300ms ease;
 }
 
@@ -380,32 +381,16 @@ MODAL
 
 .modal__overlay--loading {
   background-color: #242424;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-size: 80px;
   z-index: -1;
 }
 
 .modal__overlay--success {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #4bb543;
-  font-size: 40px;
-  font-weight: 700;
-  text-align: center;
-  padding: 28px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+background-color: #4bb543;
+font-size: 40px;
+font-weight: 700;
+text-align: center;
+padding: 28px;
 }
 
 .fa-spinner {
@@ -421,6 +406,15 @@ MODAL
     transform: rotate(360deg);
   }
 } 
+
+.modal__exit {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  color: white;
+  font-size: 36px;
+  z-index: 100;
+}
 
 /* 
 
