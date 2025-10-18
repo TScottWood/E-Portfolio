@@ -28,7 +28,8 @@ section {
   background-color: rgb(245, 245, 245);
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   background-color: #242424;
   color: #fff;
@@ -52,11 +53,13 @@ label {
   font-weight: bold;
 }
 
-input:hover, textarea:hover {
+input:hover,
+textarea:hover {
   border-color: #dcdfe6;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   border-color: #f06449;
 }
 
@@ -349,7 +352,7 @@ MODAL
 
 .form__submit {
   background-color: #f06449;
-  border: 2PX solid #f06449;
+  border: 2px solid #f06449;
   color: white;
   font-weight: 700;
   width: 100%;
@@ -387,11 +390,11 @@ MODAL
 }
 
 .modal__overlay--success {
-background-color: #4bb543;
-font-size: 40px;
-font-weight: 700;
-text-align: center;
-padding: 28px;
+  background-color: #4bb543;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  padding: 28px;
 }
 
 .modal__overlay--visible {
@@ -410,7 +413,7 @@ padding: 28px;
   100% {
     transform: rotate(360deg);
   }
-} 
+}
 
 .modal__exit {
   position: absolute;
