@@ -13,7 +13,7 @@
     <script type="text/javascript">
       (function(){
         emailjs.init({
-          publicKey: "-SS9uQZPgjIEZa4Sx",
+          publicKey: "-SS9uQZPgjIEZa4Sx"
         });
       })();
     </script>
@@ -30,7 +30,7 @@
             nav__link--anchor
             link__hover-effect
             link__hover-effect--black
-              "">About</a
+              ">About</a
             >
           </li>
           <li class="nav__link">
@@ -38,7 +38,7 @@
             nav__link--anchor
             link__hover-effect
             link__hover-effect--black
-              "">Projects</a
+              ">Projects</a
             >
           </li>
           <li class="nav__link" onclick="toggleModal()">
@@ -46,10 +46,10 @@
             nav__link--anchor
             link__hover-effect
             link__hover-effect--black
-              "">Contact</a
+              ">Contact</a
             >
           </li>
-          <li class="nav__link click" onclick="toggleContrast">
+          <li class="nav__link click" onclick="toggleContrast()">
             <a href="#" class="
             nav__link--anchor
             link__hover-effect
@@ -79,7 +79,6 @@
                 <i class="fa-solid fa-file-pdf"></i>
               </a>
             </div>
-        </div>
       </header>
       <button class="mail__btn click" onclick="toggleModal()">
         <i class="fa-solid fa-envelope"></i>
@@ -92,13 +91,13 @@
     <div class="modal">
       <div class="modal__half modal__about">
         <h3 class="modal__title modal__title--about">Here's a bit about me.</h3>
-        <h4 class="modal__sub-title modal__subtitle--about">Frontend Software Engineer</h4>
-        <P class="modal__para">
+        <h4 class="modal__sub-title modal__sub-title--about">Frontend Software Engineer</h4>
+        <p class="modal__para">
           I’m a <b class="orange">Frontend Software Engineer </b>passionate about building web applications that <b class="orange">connect with users.</b>
           <br>
           <br>
           Combining a background in service with a fresh perspective in AI-powered frontend development, I create <b class="orange">responsive, high-performance</b> apps that deliver seamless user experiences and make a positive impact. I thrive on turning challenging problems into <b class="orange">elegant, user-friendly solutions.</b>
-        </P>
+        </p>
         <div class="modal__languages">
           <figure class="modal__language">
             <i class="fa-brands fa-html5 modal__language--img" style="color: #f06530;"></i> 
@@ -129,7 +128,7 @@
            <form id="contact__form" onsubmit="contact(event)">
             <div class="form__item">
               <label class="form__item--label">Name</label>
-                <input class="input" name="user_name" type="text" required></input>
+                <input class="input" name="user_name" type="text" required>
             </div>
             <div class="form__item">
               <label class="form__item--label">Email</label>
@@ -139,7 +138,7 @@
               <label class="form__item--label">Message</label>
                 <textarea class="input" name="message" type="text" required></textarea>
             </div>
-            <button id=":contact__submit" class="form__submit">
+            <button id="contact__submit" class="form__submit">
               Send it my way.
             </button>
           </form>
@@ -155,9 +154,9 @@
     <section id="projects">
       <div class="container">
         <div class="row">
-          <H1 class="section__title">
+          <h1 class="section__title">
             Here are some of my <span class="orange">projects</span>.
-          </H1>
+          </h1>
           <ul class="project__list">
             <li class="project">
               <div class="project__wrapper">
@@ -192,7 +191,7 @@
       <div class="container">
       <div class="row footer__row">
         <figure>
-          <img class="footer__logo--img" src="./assets/fulllogo.png" alt=""">
+          <img class="footer__logo--img" src="./assets/fulllogo.png" alt="">
         </figure>
         <div class="footer__social--list">
           <a href="#" class=
@@ -224,7 +223,7 @@
           Resume
         </a>
       </div>
-      <div class="footer__copyright"><i class="fa-regular fa-copyright"></i> Copyright T. Scott Wood 2025</i>
+      <div class="footer__copyright"><i class="fa-regular fa-copyright"></i> Copyright T. Scott Wood 2025</div>
       </div>
     </footer>
   </body>
